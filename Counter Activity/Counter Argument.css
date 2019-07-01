@@ -1,0 +1,36 @@
+* {
+    font-family: Roboto, Sans-Serif;
+    font-size: 1.2em;
+  }
+  
+  center {
+    margin-top: 20vh;
+  }
+  
+  .fancy-button {
+    color: #6CA6C1;
+    background-color: #EC9192;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 2px solid;
+    border-color: lightgray #444 #444 lightgray;
+    text-transform: uppercase;
+    box-shadow: inset 1px 1px 1px black;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  .fancy-button:hover {
+    outline: none;
+    background-color: #DFBE99;
+    color: #DB5375;
+  }
+  
+  .fancy-button:focus {
+    outline: none;
+    background-color: #6CA6C1;
+    color: #DFBE99;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
