@@ -39,3 +39,9 @@ document.querySelector('#change-me-button').onclick = function() {
   }
   
   // try implementing this last one
+  document.querySelector('#delete-me-button').onclick = function() {
+const original = document.querySelector('remove-me-title');
+const remove = original.removeAttributeNode(true);
+
+original.parentNode.appendChild(remove)
+}
