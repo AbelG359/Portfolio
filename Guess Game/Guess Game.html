@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+   <body>
+
+   </body>
+<script>
+var num = Math.round(Math.random() * 20);
+
+var turns = 5;
+
+var directions = "Guess my number between 1-20";
+
+var hint = "Your guess is too small" + " you have " + turns + " guesses left.";
+var turns = 5;
+while (turns > 0) {
+ 
+  turns--;
+
+  var guess = prompt(directions);
+
+  guess = Number(guess);
+
+  var answer;
+  if (guess == num) {
+    alert ("You guessed correctly!");
+    document.write("<h1>You win</h1>");
+    turns = 0; 
+    console.log("Turns set to 0.")
+  }
+  else {
+    if (guess < num) {
+      answer = "You guess is too small" + "try again";
+    } else {
+answer = "Your guess is too big" + "try again";
+}
+
+  directions = answer + " you have " + turns + " guesses left.";
+  }
+}
+
+alert ("The number was " + num);
+
+
+ 
+/*
+}
+document.getElementById("demo").innerHTML = turns
+"You have " + i  + " guesses left.";
+
+function myFunction() {
+  var hint = prompt("Guess my number between 1-20");
+  if (hint != null) {
+    document.getElementById("demo").innerHTML =
+    "You guessed correctly!";
+  }
+  var turns = prompt("You have" + turns + "left")
+if (turns > 0) {
+  document.getElementById("demo").innerHTML =
+"You have " + "turns " + "guesses left"
+turns--;
+}
+}
+*/
+
+
+
+
+
+
+
+
+</script>
+</html>
