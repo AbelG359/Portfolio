@@ -5,7 +5,7 @@
 4. `innerHTML` refers to what is inside an element, (between the tags)
 */
 document.querySelector('#change-me-button').onclick = function() {
-    document.querySelector('#change-me-title').innerHTML = 'Hello, My name is Jeff!'
+    document.querySelector('#change-me-title').innerHTML = 'Hello, My name is Steve!'
   }
   
   /*
