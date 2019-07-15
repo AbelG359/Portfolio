@@ -12,8 +12,11 @@
     margin-top: 1px;
 }
 .color {
-    background-color: burlywood;
+    background-color: gray;
 }
-.text1 {
-    margin-left: 600px;
+.S10 {
+    background-color: crimson;
+}
+.S10e {
+    background-color: chartreuse;
 }
