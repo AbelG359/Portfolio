@@ -1,18 +1,18 @@
 .apple {
     margin-left: 900px;
-    margin-top: 1px;
-    margin-bottom: 1px;
+    margin-top: -685px;
+    margin-bottom: 10px;
 }
 .apple2 {
     margin-left: 750px;
-    margin-top: 200px;
-    margin-top: -1px;
+    margin-top: 100px;
+    margin-top: 65px;
     margin-bottom: -1px;
 }
 .apple3 {
-    margin-left: 710px;
-    margin-top: -675px;
-    margin-bottom: 1px;
+    margin-left: 900px;
+    margin-top: 30px;
+    margin-bottom: -1px;
 }
 .color {
     background-color: steelblue;
