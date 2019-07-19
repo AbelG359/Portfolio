@@ -23,13 +23,17 @@ function onFrame(event) {
 	else if (circle.position.y < 500) {
 		circle.position.y += circle.bounds.height / 20;
 	} 
+	
 
-
-	//path.rotate(1.5);
+	path.rotate(1.5);
 	
 	
 } 
-
+var path = new.Path.Rectangle({
+	point: [200, 200],
+	size: [150, 75],
+	strokeColor: "orange"
+})
 
 
 /*
