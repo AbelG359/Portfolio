@@ -7,12 +7,13 @@
     margin-left: 750px;
     margin-top: 100px;
     margin-top: 65px;
-    margin-bottom: -1px;
+    margin-bottom: 40px;
+    border: double;
 }
 .apple3 {
     margin-left: 900px;
     margin-top: 30px;
-    margin-bottom: -1px;
+    margin-bottom: -40xpx;
 }
 .color {
     background-color: gold;
@@ -64,4 +65,11 @@
 }
 .XSMAX2 {
     margin-left: 14%;
+}
+.samsung {
+    border: double;
+    margin-bottom: -55px;
+}
+.sm {
+    margin-bottom: 80px;
 }
