@@ -1,0 +1,39 @@
+html, body {
+    height: 700px;
+    width: 600px;
+}
+
+/* Scale canvas with resize attribute to full size */
+canvas[resize] {
+    width: 100%;
+    height: 100%;
+}  
+center {
+    margin-top: -700px;
+
+}
+
+div#tic-tac-toe-game {
+    height: 650px;
+    width: 700px;
+    text-align: center;
+  }
+  
+  .row {
+    text-align: center;
+    display: table-row;
+  }
+  
+  .grid-spot {
+    height: 200px;
+    width: 200px;
+    display: inline;
+    float: left;
+    border: 2px solid black;
+    display: table-cell;
+  }
+  
+  
+  .grid-spot:hover {
+    border: 2px solid red;
+  }
