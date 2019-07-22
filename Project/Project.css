@@ -1,15 +1,12 @@
 .apple {
     margin-left: 900px;
-    margin-top: -750px;
+    margin-top: -700px;
     margin-bottom: 10px;
 }
 .apple2 {
     margin-left: 750px;
     margin-top: 100px;
-    margin-top: 100px;
     margin-bottom: 40px;
-    border: inset;
-    border-color:brown;
     margin-right: auto;
 }
 .apple3 {
@@ -18,7 +15,7 @@
     margin-bottom: -40xpx;
 }
 .color {
-    background-color: seagreen;
+    background-color: slategrey;
 }
 .S10 {
     background-color: steelblue;
@@ -69,15 +66,14 @@
     margin-left: 14%;
 }
 .samsung {
-    border: inset;
-    border-color: rgb(0, 15, 137);
     margin-bottom: -55px;
     margin-left: auto;
+    margin-top: 500px;
 }
 .sm {
     margin-bottom: 80px;
     border: solid;
-    border-color: rgb(18, 53, 36);
+    border-color: yellow;
 }
 .Title {
     border: outset;
@@ -86,7 +82,10 @@
     border-right-color: crimson;
     border-bottom-color: crimson;
     height: 100px;
-    width: 200px;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
+}
+.Title {
+    color: crimson;
 }
