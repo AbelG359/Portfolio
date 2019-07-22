@@ -8,7 +8,7 @@
     margin-top: 100px;
     margin-top: 65px;
     margin-bottom: 40px;
-    border: double;
+    border: inset;
     margin-right: auto;
 }
 .apple3 {
@@ -68,7 +68,7 @@
     margin-left: 14%;
 }
 .samsung {
-    border: double;
+    border: inset;
     margin-bottom: -55px;
     margin-left: auto;
 }
