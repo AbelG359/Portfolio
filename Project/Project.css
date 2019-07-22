@@ -1,12 +1,12 @@
 .apple {
     margin-left: 900px;
-    margin-top: -685px;
+    margin-top: -750px;
     margin-bottom: 10px;
 }
 .apple2 {
     margin-left: 750px;
     margin-top: 100px;
-    margin-top: 65px;
+    margin-top: 100px;
     margin-bottom: 40px;
     border: inset;
     border-color:brown;
@@ -14,7 +14,7 @@
 }
 .apple3 {
     margin-left: 900px;
-    margin-top: 30px;
+    margin-top: -1px;
     margin-bottom: -40xpx;
 }
 .color {
@@ -24,22 +24,22 @@
     background-color: steelblue;
 }
 .S10e {
-    background-color: steelblue;
+    background-color: yellow;
 }
 .S105 {
-    background-color: steelblue;
+    background-color: skyblue;
 }
 .S105G {
-    background-color: steelblue; 
+    background-color: slategray; 
 }
 .XR {
-    background-color: steelblue;
+    background-color: orange;
 }
 .XS {
-    background-color: steelblue;
+    background-color: rgb(183, 110, 121);
 }
 .XSMAX {
-    background-color: steelblue;
+    background-color: rosybrown;
 }
 .S10e2 {
     margin-left: 35%;
@@ -85,7 +85,7 @@
     border-left-color: black;
     border-right-color: crimson;
     border-bottom-color: crimson;
-    height: 50px;
+    height: 100px;
     width: 200px;
     margin-left: auto;
     margin-right: auto;
