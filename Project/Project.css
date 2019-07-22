@@ -70,14 +70,14 @@
 }
 .samsung {
     border: inset;
-    border-color: sienna;
+    border-color: rgb(0, 15, 137);
     margin-bottom: -55px;
     margin-left: auto;
 }
 .sm {
     margin-bottom: 80px;
     border: solid;
-    border-color: crimson;
+    border-color: rgb(18, 53, 36);
 }
 .Title {
     border: outset;
