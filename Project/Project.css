@@ -74,7 +74,7 @@
 }
 .sm {
     margin-bottom: 80px;
-    border: double;
+    border: solid;
 }
 .Title {
     border: outset;
