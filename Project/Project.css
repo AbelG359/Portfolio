@@ -9,6 +9,7 @@
     margin-top: 65px;
     margin-bottom: 40px;
     border: inset;
+    border-color:brown;
     margin-right: auto;
 }
 .apple3 {
@@ -17,7 +18,7 @@
     margin-bottom: -40xpx;
 }
 .color {
-    background-color: gold;
+    background-color: seagreen;
 }
 .S10 {
     background-color: steelblue;
@@ -69,15 +70,21 @@
 }
 .samsung {
     border: inset;
+    border-color: slategrey;
     margin-bottom: -55px;
     margin-left: auto;
 }
 .sm {
     margin-bottom: 80px;
     border: solid;
+    border-color: blue;
 }
 .Title {
     border: outset;
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: crimson;
+    border-bottom-color: crimson;
     height: 50px;
     width: 200px;
     margin-left: auto;
