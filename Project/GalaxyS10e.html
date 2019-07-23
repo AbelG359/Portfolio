@@ -1,75 +1,78 @@
 <!DOCTYPE html>
+
 <html>
 <link rel="stylesheet" type="text/css" href="Project.css">
+
 <head>
     <title>
         Galaxy S10e
     </title>
 </head>
 <h1>Samsung Galaxy S10e</h1>
+
 <body class="S10e">
     <select id="dropOne" name="cars">
         <option value="Galaxy">Galaxy</option>
         <option value="iPhone">iPhone</option>
-      </select>
-      <br><br>
-     <!-- <input type="submit" onclick="selectDropdown(dropDown)"> -->
-       <button onclick="selectDropdown()">Submit</button>
-      
-      <ul id="myUL">
-      <li><a href="GalaxyS10e.html">GalaxyS10e</a></li>
-      <li><a href="GalaxyS10.html">GalaxyS10</a></li>
-      <li><a href="GalaxyS10+.html">GalaxyS10+</a></li>
-      <li><a href="GalaxyS105G.html">GalaxyS105G</a></li>
-      <li><a href="iPhoneXR.html">iPhoneXR</a></li>
-      <li><a href="iPhoneXS.html">iPhoneXS</a></li>
-      <li><a href="iPhoneXSMax.html">iPhoneXSMax</a></li>
-      <li><a href="Project.html">Home</a></li>
+    </select>
+    <br><br>
+    <!-- <input type="submit" onclick="selectDropdown(dropDown)"> -->
+    <button onclick="selectDropdown()">Submit</button>
+
+    <ul id="myUL">
+        <li><a href="GalaxyS10e.html">GalaxyS10e</a></li>
+        <li><a href="GalaxyS10.html">GalaxyS10</a></li>
+        <li><a href="GalaxyS10+.html">GalaxyS10+</a></li>
+        <li><a href="GalaxyS105G.html">GalaxyS105G</a></li>
+        <li><a href="iPhoneXR.html">iPhoneXR</a></li>
+        <li><a href="iPhoneXS.html">iPhoneXS</a></li>
+        <li><a href="iPhoneXSMax.html">iPhoneXSMax</a></li>
+        <li><a href="Project.html">Home</a></li>
     </ul>
-      <script>
-      function selectDropdown() {
-  // intializing variables they are undefined at the moment
-  var ul, li, a, strCar, sel, txtValue;
-  sel = document.getElementById("dropOne");
-  // gets the string of the selected element in the dropdown
-  strCar = sel.options[sel.selectedIndex].text;
-  console.log("strCar = " + strCar);
-  
-  // link: https://www.w3schools.com/howto/howto_js_filter_lists.asp
-  
-  // using our string strCar we use it to filter out our li's
-  // so we need to grab our li's
-  ul = document.getElementById("myUL");
-  // li is an array holding each li element
-  li = ul.getElementsByTagName("li");
-  
-  
-  // goes through each li element and displays only ones that the dropdown
-  for (i = 0; i < li.length; i++) {
-        //grabbing the a tag 
-        a = li[i].getElementsByTagName("a")[0];
-      // txtValue equals the a tag's text 
-        txtValue = a.textContent || a.innerText;
-        console.log(txtValue);
-        // 
-        if (txtValue.indexOf(strCar) > -1) {
-            li[i].style.display = "";
-        } else {
-            li[i].style.display = "none";
+    <script>
+        function selectDropdown() {
+            // intializing variables they are undefined at the moment
+            var ul, li, a, strCar, sel, txtValue;
+            sel = document.getElementById("dropOne");
+            // gets the string of the selected element in the dropdown
+            strCar = sel.options[sel.selectedIndex].text;
+            console.log("strCar = " + strCar);
+
+            // link: https://www.w3schools.com/howto/howto_js_filter_lists.asp
+
+            // using our string strCar we use it to filter out our li's
+            // so we need to grab our li's
+            ul = document.getElementById("myUL");
+            // li is an array holding each li element
+            li = ul.getElementsByTagName("li");
+
+
+            // goes through each li element and displays only ones that the dropdown
+            for (i = 0; i < li.length; i++) {
+                //grabbing the a tag 
+                a = li[i].getElementsByTagName("a")[0];
+                // txtValue equals the a tag's text 
+                txtValue = a.textContent || a.innerText;
+                console.log(txtValue);
+                // 
+                if (txtValue.indexOf(strCar) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+            }
+
+
         }
-    } 
-  
-  
-}
-      
-      
-      
-      
-      </script>     
-        <img class="S10e2" src="S10e.png">
-        <br>
-        <br>
-        <textarea class="S10e3" rows="50" cols="60">
+
+
+
+
+    </script>
+    <img class="S10e2" src="S10e.png">
+    <br>
+    <br>
+    <textarea class="S10e3" rows="50" cols="60">
     Display:    
                      2880x1080p Dynamic AMOLED Touchscreen(438ppi)
                      5.8in 82.8 cm2 (83.3% screen to body ratio)
@@ -122,7 +125,7 @@
 
         </textarea>
 
-        
+
 
 
 
