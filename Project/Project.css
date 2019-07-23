@@ -76,7 +76,7 @@
     border-color: yellow;
 }
 .Title {
-    border: outset;
+    border: solid;
     border-top-color: yellow;
     border-left-color: blue;
     border-right-color: crimson;
