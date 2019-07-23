@@ -77,10 +77,10 @@
 }
 .Title {
     border: outset;
-    border-top-color: black;
-    border-left-color: black;
+    border-top-color: yellow;
+    border-left-color: blue;
     border-right-color: crimson;
-    border-bottom-color: crimson;
+    border-bottom-color: green;
     height: 100px;
     width: 250px;
     margin-left: auto;
