@@ -13,6 +13,8 @@
     margin-left: 900px;
     margin-top: -1px;
     margin-bottom: -40xpx;
+    border: yellow;
+    border: dotted;
 }
 .color {
     background-color: rgb(169, 169, 169);
