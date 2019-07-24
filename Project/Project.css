@@ -76,6 +76,10 @@
     margin-bottom: 80px;
     border: dotted;
     border-color: yellow;
+    width: 400px;
+    height: 140px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 .Title {
     border: solid;
@@ -83,11 +87,15 @@
     border-left-color: blue;
     border-right-color: crimson;
     border-bottom-color: green;
-    height: 100px;
+    height: 55px;
     width: 250px;
     margin-left: auto;
     margin-right: auto;
 }
 .Title {
     color: blue;
+}
+.smg {
+    margin-left:auto;
+    margin-right:auto;
 }
