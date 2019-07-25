@@ -99,6 +99,6 @@
     margin-left:auto;
     margin-right:auto;
 }
-ul {
+.two-cols {
     columns: 2;
 }
