@@ -4,9 +4,9 @@
     margin-bottom: 10px;
 }
 .apple2 {
-    margin-left: 750px;
-    margin-top: 550px;
-    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-top: -40px;
+    /* margin-bottom: 40px;*/
     margin-right: auto;
 }
 .apple3 {
@@ -70,7 +70,7 @@
 .samsung {
     margin-bottom: -55px;
     margin-left: auto;
-    margin-top: 500px;
+    /*margin-top: 500px;*/
 }
 .sm {
     margin-bottom: 80px;
