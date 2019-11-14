@@ -1,0 +1,9 @@
+h1 {
+  color: white;
+  border-top: double;
+  border-bottom: dotted;
+}
+
+body {
+  background-color: RGB(18, 53, 36);
+}
